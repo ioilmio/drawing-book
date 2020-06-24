@@ -9,6 +9,11 @@ When she flips page 1, she sees pages 2 and 3. Each page except the last page wi
 
 Given n and p, find and print the minimum number of pages Brie must turn in order to arrive at page p.
 
+
+   - n: the number of pages in the book
+   - p: the page number to turn to
+
+
 ## Solution
 
 We can start at the beginning or at the end of the book. 
