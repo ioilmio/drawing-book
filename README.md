@@ -11,4 +11,7 @@ Given n and p, find and print the minimum number of pages Brie must turn in orde
 
 ## Solution
 
+We can start at the beginning or at the end of the book. 
+If the book length is 6 and the page to lookup is 2, if we start from the beginning, we have to flip one page, if we start from the end of the book, we need to flip 2 pages. Because page (except for the first and last page) come in pairs, we can divide for 2. 
 We want the mininum between: the half of the page to lookup, and the difference between it and the half of the book length. 
+
